@@ -26,11 +26,11 @@ b = 2.4
 print(b)
 
 
-# multiple variable output 
+#4 multiple variable output 
 print(a,name,b)
 
 
-# Take multiple input 
+#5 Take multiple input 
 
 # *** splitting the values entered by
 #  the user into separate variables for each value using the split() method
@@ -43,3 +43,15 @@ x, y, z = input("Enter total no. of student and boys and girls: ").split()
 print("Total number of students: ", x)
 print("Number of boys is : ", y)
 print("Number of girls is : ", z)
+
+#Find DataType of Input in Python
+print(a)
+print(type(a))
+
+#6 change the type of input 
+
+# *** by deafault python input() read the user input as string 
+
+n = int(input("Enter a number: "))  #this called as the typecasting 
+print(n)
+print(type(n))
