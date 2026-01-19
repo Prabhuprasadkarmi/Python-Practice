@@ -28,3 +28,46 @@ print(c)
 
 print(a,b,c)
 
+# Type Casting a Variable
+
+# int(): Converts compatible values to an integer.
+# float(): Transforms values into floating-point numbers.
+# str(): Converts any data type into a string.
+
+s = "10"  
+n = int(s)
+
+s1 = 5
+f = float(s1) 
+
+age = 25
+s2 = str(age)  
+
+print(n)  
+print(f)  
+print(s2)
+
+# Type of the variable knowing by using the type()
+
+print(type(n))
+print(type(f))
+print(type(s2))
+
+
+# deleting the variable by using the del keyword 
+# x = 10
+# del x
+# print(x)
+
+
+# swapping the two number without using the third variable
+
+a,b = 5, 10
+a,b = b,a
+print(a,b)
+
+# print the length of the string using len()
+
+name = "Prabhuprasad Karmi"  # here the space is count as the length
+length = len(name)
+print("the length of the name :",length)

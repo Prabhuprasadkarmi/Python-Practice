@@ -13,6 +13,8 @@ print("Hello,", name, "! Welcome!")
 
 #3 Python printing variable
 
+# variable is the container of the data which can be manipulated at the time of program execution
+
 #3.1 integer 
 a = 10
 print(a)
@@ -55,3 +57,4 @@ print(type(a))
 n = int(input("Enter a number: "))  #this called as the typecasting 
 print(n)
 print(type(n))
+
