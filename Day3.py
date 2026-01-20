@@ -49,3 +49,12 @@ print(a == b)   # is a equal to b where = sign give the error
 print(a != b)   # is a not equal to b
 print(a >= b)   # is a greater than equal to b
 print(a <= b)   # is a less than equal to b
+
+
+# Logical operator
+    # perform the logical and ,logical or ,logical not. And check the conditional statement 
+a = True
+b = False
+print(a and b)
+print(a or b)
+print(not a)
