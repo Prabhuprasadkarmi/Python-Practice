@@ -9,3 +9,12 @@ print(a,b)
 name = "Prabhuprasad Karmi"                   # here the space is count as the length
 length = len(name)
 print("the length of the name :",length)
+
+#3. Calculator using python
+
+a = int(input("Enter the first no.:"))
+b = int(input("Enter the second no.:"))
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b) 
