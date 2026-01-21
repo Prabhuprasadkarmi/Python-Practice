@@ -29,3 +29,27 @@ print(a << 2)
 import keyword
 print("The list of keywords are : ")
 print(keyword.kwlist)
+
+
+# Python datatypes
+
+    # represent the kind of values and determine what types of operation done on the variable
+    # *** Every thing is an object in Python programming
+# Built-in datatypes of Python
+    # numeric : int,float,complex
+    # sequence type : string,list,tuple
+    # mapping : dictonary
+    # boolean : bool
+    # Set Type: set, frozenset
+    # Binary Types: bytes, bytearray, memoryview
+
+# numeric datatypes
+
+a = 5
+print(type(a))
+
+b = 5.0
+print(type(b))
+
+c = 2 + 4j
+print(type(c))
