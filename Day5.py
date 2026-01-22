@@ -22,3 +22,9 @@ print(type(s))
 print(s[1])
 print(s[2])
 print(s[-1])
+
+# List Data Type
+
+# Lists are similar to arrays found in other languages. 
+# They are an ordered and mutable collection of items. 
+# It is very flexible as items in a list do not need to be of the same type.
