@@ -10,3 +10,15 @@ print(a[2])
 print("Accessing element using negative indexing")
 print(a[-1])
 print(a[-3])
+
+
+# Python tuple 
+
+    # Python tuple is collection of objects.
+    # where tuple is unchangable after creating.
+
+# initiate empty tuple
+tup1 = ()
+
+tup2 = ('saroj', 'prabhu')
+print("\nTuple with the use of String: ", tup2)
