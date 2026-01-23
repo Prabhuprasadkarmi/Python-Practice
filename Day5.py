@@ -38,6 +38,7 @@ print(s[-1])
 
 # Empty list
 a = []
+print(a)
 # list with int values
 a = [1, 2, 3]
 print(a)
