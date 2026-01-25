@@ -24,3 +24,22 @@ for i in set1:
   
 # check if item exist in set   
 print( "Prabhu" in set1)
+
+# Python Dictonary
+    # Python dictonary is the collection of data values
+    #  a Dictionary holds a key: value pair.
+    # dictonary is store the value using the column(:) and separated by comma(,)
+
+# create the Dictonary 
+    # values in the dictonary can be any datatype and duplicate.
+    # key can't be duplicate.
+
+# initialize empty dictionary
+d = {}
+
+d = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+print(d)
+
+# creating dictionary using dict() constructor
+d1 = dict({1: 'Geeks', 2: 'For', 3: 'Geeks'})
+print(d1) 
