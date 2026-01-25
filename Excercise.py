@@ -18,3 +18,11 @@ print("Addition:", a + b)
 print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b) 
+
+#4. Calculate the area of circle
+
+from pconst import const 
+const.pi = 3.14
+radius = float(input("Enter the radius :"))
+area = const.pi*radius*radius
+print("Area of the circle is",area)
