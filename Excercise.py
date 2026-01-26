@@ -26,3 +26,11 @@ const.pi = 3.14
 radius = float(input("Enter the radius :"))
 area = const.pi*radius*radius
 print("Area of the circle is",area)
+
+#5. Calculate simple interest
+
+p = float(input("Enter the Principal amount :"))
+t = float(input("Enter the Time :"))
+r = float(input("Enter the Rate of Interest :"))
+si = (p*t*r)/100
+print("The simple interest is",si)
