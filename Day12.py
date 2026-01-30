@@ -19,3 +19,9 @@ match number:
         print("three")    
     case _:
         print("Other number")
+
+ # Loops in Pyhton (for,while,nested loops)
+    # Loops in the Python used for repeat action efficiently.
+    # The main types are For loops (counting through items) and While loops (based on conditions).
+#For loop
+    # For loop is iterate over a sequence like list, Tuple, String and range.
