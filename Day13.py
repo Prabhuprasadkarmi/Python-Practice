@@ -28,4 +28,12 @@ for x in d:
 set1 = {10, 30, 20}
 print("This is the Set Element")
 for x in set1:
-    print(x),
+    print(x)
+
+# Iterating by Index of Sequences
+    # We can also use the index of elements in the sequence to iterate.
+    #  The key idea is to first calculate the length of the list and
+    #  then iterate over the sequence within the range of this length.
+li = ["Saroj", "Pradyumna", "Prabhu"]
+for index in range(len(li)):
+    print(li[index])      
