@@ -8,5 +8,5 @@ while (cnt < 3):
 
 # Infinite While Loop
     # If we want a block of code to execute infinite number of times then we can use the while loop in Python to do so.
-while (False):
-    print("Hello Geeks")
+#while (True):
+    #print("Hello Geeks")

@@ -17,7 +17,7 @@ else:
     # Nested if..else means an if-else statement inside another if statement.
     # We can use nested if statements to check conditions within conditions.
 age = int(input("Enter the age :"))
-is_member = int(input("Enter is membership :(1/0)"))
+is_member = int(input("Enter is membership :(1/0)"))    # 1 is for True and 0 for False
 
 if age >= 60:
     if is_member:
