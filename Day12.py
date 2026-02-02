@@ -8,6 +8,7 @@ print(s)
 # Match-Case Statement
     # match-case statement is Python's version of a switch-case found in other languages.
     # It allows us to match a variable's value against a set of patterns.
+    
 number =int(input("Enter the number:"))
 
 match number:
