@@ -1,10 +1,12 @@
 # nested loop
     # Python programming language allows to use one loop inside another loop which is called nested loop.
+
 from __future__ import print_function
 for i in range(1, 6):
     for j in range(i):
         print(i, end=' ')
     print()
+    
 # Compound assignment operators
 x = 10 
 x += 2  # equivalent to x = x + 2 here we are adding 2 to the value of x . x is now 12
