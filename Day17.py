@@ -6,3 +6,9 @@ for letter in 'Prabhuprasad Karmi':
 
 print('Current Letter :', letter)
 
+#pass statement
+    # The pass statement is a null operation;
+    #  it is used when a statement is syntactically required but no action is needed.
+for letter in 'Prabhuprasad Karmi':
+    pass
+print('Last Letter :', letter)
