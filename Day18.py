@@ -38,3 +38,7 @@ print("The factorial of 5 is:", factorial(5))
 numbers = [1, 2, 3, 4, 5]
 squared_numbers = list(map(lambda x: x * x, numbers))
 print("Squared numbers:", squared_numbers)
+# Function Annotations
+def add_numbers(a: int, b: int) -> int:
+    return a + b  
+print("The sum using annotated function is:", add_numbers(10, 20))
